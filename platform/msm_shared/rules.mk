@@ -275,8 +275,6 @@ ifeq ($(PLATFORM),msm7x27a)
 	OBJS += $(LOCAL_DIR)/uart.o \
 			$(LOCAL_DIR)/nand.o \
 			$(LOCAL_DIR)/proc_comm.o \
-			$(LOCAL_DIR)/mdp3.o \
-			$(LOCAL_DIR)/mipi_dsi.o \
 			$(LOCAL_DIR)/crypto_eng.o \
 			$(LOCAL_DIR)/crypto_hash.o \
 			$(LOCAL_DIR)/certificate.o \
@@ -284,9 +282,7 @@ ifeq ($(PLATFORM),msm7x27a)
 			$(LOCAL_DIR)/qgic.o \
 			$(LOCAL_DIR)/interrupts.o \
 			$(LOCAL_DIR)/timer.o \
-			$(LOCAL_DIR)/display.o \
-			$(LOCAL_DIR)/mipi_dsi_phy.o \
-			$(LOCAL_DIR)/mdp_lcdc.o \
+			$(LOCAL_DIR)/scm.o \
 			$(LOCAL_DIR)/spi.o
 endif
 
