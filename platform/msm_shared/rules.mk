@@ -282,7 +282,6 @@ ifeq ($(PLATFORM),msm7x27a)
 			$(LOCAL_DIR)/qgic.o \
 			$(LOCAL_DIR)/interrupts.o \
 			$(LOCAL_DIR)/timer.o \
-			$(LOCAL_DIR)/scm.o \
 			$(LOCAL_DIR)/spi.o
 endif
 

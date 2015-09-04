@@ -677,10 +677,12 @@ void boot_linux(void *kernel, unsigned *tags,
 #endif
 	bs_set_timestamp(BS_KERNEL_ENTRY);
 
+#ifndef SCM_DISABLED
 	if (IS_ARM64(kptr))
 		/* Jump to a 64bit kernel */
 		scm_elexec_call((paddr_t)kernel, tags_phys);
 	else
+#endif
 		/* Jump to a 32bit kernel */
 		entry(0, machtype, (unsigned*)tags_phys);
 }

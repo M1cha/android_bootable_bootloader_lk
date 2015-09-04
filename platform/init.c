@@ -154,3 +154,12 @@ __WEAK uint32_t platform_get_max_periph()
 {
 	return 128;
 }
+
+__WEAK void * get_canary(void)
+{
+	return (void *)rand();
+}
+
+__WEAK bool is_secure_boot_enable(void) {
+	return false;
+}

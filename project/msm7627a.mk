@@ -16,3 +16,5 @@ ENABLE_THUMB := false
 ifeq ($(EMMC_BOOT),1)
 DEFINES += _EMMC_BOOT=1
 endif
+
+DEFINES += SCM_DISABLED=1
