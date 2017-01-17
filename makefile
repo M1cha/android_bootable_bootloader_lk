@@ -62,6 +62,8 @@ endif
 
 # setup toolchain prefix
 TOOLCHAIN_PREFIX ?= arm-eabi-
+GRUB_LOADING_ADDRESS = 0x8AF00000
+GRUB_BOOT_PARTITION = "storage"
 CFLAGS += -fstack-protector-all
 CFLAGS += -fno-strict-overflow
 CPPFLAGS := -fno-exceptions -fno-rtti -fno-threadsafe-statics
