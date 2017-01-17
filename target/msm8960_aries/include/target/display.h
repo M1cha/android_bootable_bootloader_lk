@@ -1,4 +1,5 @@
 /* Copyright (c) 2010-2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2014, Xiaomi Corporation. All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are
@@ -26,8 +27,8 @@
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
-#ifndef _TARGET_MSM8960_DISPLAY_H
-#define _TARGET_MSM8960_DISPLAY_H
+#ifndef _TARGET_MSM8960_ARIES_DISPLAY_H
+#define _TARGET_MSM8960_ARIES_DISPLAY_H
 
 /*---------------------------------------------------------------------------*/
 /* HEADER files                                                              */

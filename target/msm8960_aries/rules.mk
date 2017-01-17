@@ -43,7 +43,7 @@ endif
 
 OBJS += \
 	$(LOCAL_DIR)/init.o \
-	$(LOCAL_DIR)/atags.o \
+	$(LOCAL_DIR)/../msm8960/atags.o \
 	$(LOCAL_DIR)/keypad.o \
 	$(LOCAL_DIR)/target_display.o \
 	$(LOCAL_DIR)/oem_panel.o
